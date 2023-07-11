@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Istenen groups calistirma">
+
+    <test name="groups calistirma">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+                <exclude name="regression"></exclude>
+                <include name="mini regression"></include>
+
+            </run>
+        </groups>
+
+    </test>
+</suite>
+
+
+
