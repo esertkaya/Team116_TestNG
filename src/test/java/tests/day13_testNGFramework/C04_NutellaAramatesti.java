@@ -18,7 +18,7 @@ public class C04_NutellaAramatesti {
 
         // Nutella icin arama yapin
         AmazonPage amazonPage = new AmazonPage();
-        ReusableMethods.bekle(5);
+        ReusableMethods.bekle(10);
         amazonPage.aramaKutusu.
                 sendKeys(ConfigReader.getProperty("amazonArananKelime")+ Keys.ENTER);
 
